@@ -28,6 +28,11 @@ BRANDS = [
 # --- Paste your FRESH cookie string here (from an incognito capture) ---
 BB_COOKIES_STR = os.environ["BB_COOKIES"]
 
+print(f"DEBUG: cookie string length = {len(BB_COOKIES_STR)}")
+print(f"DEBUG: number of '; ' separated parts = {len(BB_COOKIES_STR.split('; '))}")
+print(f"DEBUG: first 30 chars = {BB_COOKIES_STR[:30]!r}")
+print(f"DEBUG: last 30 chars = {BB_COOKIES_STR[-30:]!r}")
+
 BB_COOKIES = dict(item.split("=", 1) for item in BB_COOKIES_STR.split("; "))
 
 BB_HEADERS = {
