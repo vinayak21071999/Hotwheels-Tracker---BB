@@ -1,11 +1,16 @@
 import requests
 import json
 import os
-from datetime import datetime
+import time
 
 # ---- CONFIG ----
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-CHAT_ID = os.environ.get("CHAT_ID", "YOUR_CHAT_ID_HERE")
+# BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+# CHAT_ID = os.environ.get("CHAT_ID", "YOUR_CHAT_ID_HERE")
+
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID = os.environ["CHAT_ID"]
+
+STATE_FILE = "bb_state.json"
 
 BRANDS = [
     "abarth", "acura", "alfa romeo", "aston martin", "audi", "bentley",
@@ -17,33 +22,13 @@ BRANDS = [
     "mercedes", "mercedes-benz", "mg", "mini", "mitsubishi", "nissan",
     "opel", "pagani", "peugeot", "plymouth", "pontiac", "porsche", "ram",
     "renault", "rivian", "rolls-royce", "rolls royce", "saab", "shelby",
-    "subaru", "suzuki", "tesla", "toyota", "volkswagen", "volvo"
+    "subaru", "suzuki", "tesla", "toyota", "volkswagen", "volvo", "Wagons"
 ]
 
-BB_COOKIES = {
-    "_bb_locSrc": "default",
-    "_bb_nhid": "7427",
-    "_bb_dsid": "7427",
-    "_bb_dsevid": "7427",
-    "csrftoken": "REPLACE_WITH_FRESH_VALUE",
-    "isintegratedsa": "true",
-    "jentrycontextid": "10",
-    "xentrycontextid": "10",
-    "xentrycontext": "bbnow",
-    "_bb_bb2.0": "1",
-    "_is_tobacco_enabled": "1",
-    "_is_bb1.0_supported": "0",
-    "is_integrated_sa": "1",
-    "is_subscribe_sa": "0",
-    "bb2_enabled": "true",
-    "_bb_lat_long": '"MTIuMzMwNzczOXw3Ni42MDM3MjIxOTk5OTk5OQ=="',
-    "_bb_cid": "10",
-    "is_global": "0",
-    "_bb_addressinfo": "MTIuMzMwNzczOXw3Ni42MDM3MjIxOTk5OTk5OXxIaW5rYWx8NTcwMDE3fEh1dGFnYWxsaXwxfGZhbHNlfHRydWV8dHJ1ZXxCaWdiYXNrZXRlZXI=",
-    "_bb_pin_code": "570017",
-    "_bb_sa_ids": "21290",
-    "_bb_cda_sa_info": "djIuY2RhX3NhLjEwLjIxMjkw",
-}
+# --- Paste your FRESH cookie string here (from an incognito capture) ---
+BB_COOKIES_STR = os.environ["BB_COOKIES"]
+
+BB_COOKIES = dict(item.split("=", 1) for item in BB_COOKIES_STR.split("; "))
 
 BB_HEADERS = {
     "accept": "*/*",
@@ -56,8 +41,6 @@ BB_HEADERS = {
     "x-entry-context-id": "10",
 }
 
-STATE_FILE = "bb_state.json"
-
 
 def send_telegram(message: str):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
@@ -69,12 +52,50 @@ def matches_watchlist(name: str) -> bool:
     return any(b in name_lower for b in BRANDS)
 
 
-def fetch_bigbasket_hotwheels(page=1):
-    url = f"https://www.bigbasket.com/listing-svc/v2/products?type=ps&slug=hot%20wheels&page={page}&bucket_id=6"
-    resp = requests.get(url, headers=BB_HEADERS, cookies=BB_COOKIES, timeout=15)
-    resp.raise_for_status()
-    data = resp.json()
-    return data["tabs"][0]["product_info"]["products"]
+
+def fetch_page_with_retry(url, max_retries=4):
+    delay = 5
+    for attempt in range(max_retries):
+        resp = requests.get(url, headers=BB_HEADERS, cookies=BB_COOKIES, timeout=15)
+
+        if resp.status_code == 429:
+            print(f"Rate limited (attempt {attempt + 1}/{max_retries}), waiting {delay}s...")
+            time.sleep(delay)
+            delay *= 2  # exponential backoff: 5s, 10s, 20s, 40s
+            continue
+
+        resp.raise_for_status()
+        return resp.json()
+
+    raise Exception(f"Failed after {max_retries} retries due to repeated rate limiting")
+
+
+def fetch_bigbasket_hotwheels():
+    all_products = []
+    page = 1
+    while True:
+        url = f"https://www.bigbasket.com/listing-svc/v2/products?type=ps&slug=hot%20wheels&page={page}&bucket_id=6"
+
+        data = fetch_page_with_retry(url)
+        products = data["tabs"][0]["product_info"]["products"]
+
+        if not products:
+            break
+
+        all_products.extend(products)
+        print(f"Page {page}: {len(products)} products")
+
+        if len(products) < 20:
+            break
+
+        page += 1
+        if page > 20:
+            print("Hit safety page cap (20) - stopping pagination")
+            break
+
+        time.sleep(4)  # increased pacing between pages
+
+    return all_products
 
 
 def load_state():
@@ -96,11 +117,12 @@ def is_in_stock(product) -> bool:
 
 
 def main():
+    send_telegram("✅ Test message - tracker is alive")
     previous = load_state()
     current = {}
 
     try:
-        products = fetch_bigbasket_hotwheels(page=1)
+        products = fetch_bigbasket_hotwheels()
     except Exception as e:
         print(f"Error fetching BigBasket results: {e}")
         return
@@ -110,24 +132,22 @@ def main():
         name = p["desc"]
         in_stock = is_in_stock(p)
         url = f"https://www.bigbasket.com{p['absolute_url']}"
+        is_watchlist = matches_watchlist(name)
 
         current[pid] = {"name": name, "in_stock": in_stock}
         prev_entry = previous.get(pid)
 
-        # Trigger 1: new item never seen before
+        # Trigger 1: brand new listing never seen before
         if prev_entry is None:
-            send_telegram(f"🆕 New Hot Wheels listing:\n{name}\n{url}")
-            if in_stock and matches_watchlist(name):
-                send_telegram(f"⭐ New + in stock + matches watchlist:\n{name}\n{url}")
+            tag = " ⭐ (matches your watchlist)" if is_watchlist else ""
+            send_telegram(f"🆕 New Hot Wheels listing{tag}:\n{name}\n{url}")
 
-        # Trigger 2: restock (was out of stock, now in stock)
+        # Trigger 2 & 3: was out of stock, now in stock
         elif prev_entry["in_stock"] is False and in_stock is True:
-            send_telegram(f"🔔 Back in stock:\n{name}\n{url}")
-
-        # Trigger 3: watchlist match currently in stock (catch on every run, not just transitions)
-        if in_stock and matches_watchlist(name) and prev_entry is not None:
-            # only alert once per stock period, not every run — reuse restock logic above covers the transition case
-            pass
+            if is_watchlist:
+                send_telegram(f"⭐ Watchlist item back in stock:\n{name}\n{url}")
+            else:
+                send_telegram(f"🔔 Back in stock:\n{name}\n{url}")
 
     save_state(current)
     print(f"Checked {len(products)} products. State saved.")
