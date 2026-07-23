@@ -325,7 +325,7 @@
   },
   "40372041": {
     "name": "HW Dirt Lil' Roar Die Cast Toy Car For 3+ Years",
-    "in_stock": true
+    "in_stock": false
   },
   "40372044": {
     "name": "HW J-Imports Japonaises Nissan Skyline GT-R Die Cast Toy Car For 3+ Years",
@@ -491,12 +491,12 @@
     "name": "S2-001 Die-Cast SUV Model - Silver",
     "in_stock": true
   },
-  "40365668": {
-    "name": "S2-006 Die-Cast SUV Model - Dark Blue",
-    "in_stock": true
-  },
   "40365670": {
     "name": "S3-002 Die-Cast Racing Car - Red",
+    "in_stock": true
+  },
+  "40365668": {
+    "name": "S2-006 Die-Cast SUV Model - Dark Blue",
     "in_stock": true
   },
   "40327376": {
