@@ -123,6 +123,10 @@
     "name": "Team Wheels Punk Rod Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
+  "40372043": {
+    "name": "HW J-Imports Japonaises Toyota AE86 Sprinter Trueno Die Cast Toy Car For 3+ Years",
+    "in_stock": true
+  },
   "40372034": {
     "name": "HW Heavyweights 5 Alarm Die Cast Toy Car Toy Car For 3+ Years",
     "in_stock": true
@@ -139,13 +143,17 @@
     "name": "Wagons Familiales Lil' Mad Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
+  "40367173": {
+    "name": "20 Toyota GR Supra Die-Cast Toy Car JJK04",
+    "in_stock": false
+  },
   "40372035": {
     "name": "HW Heavyweights Haulerback Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
-  "40367173": {
-    "name": "20 Toyota GR Supra Die-Cast Toy Car JJK04",
-    "in_stock": false
+  "40372039": {
+    "name": "Formula 1 Aston Martin Aramco Die Cast Toy Car For 3+ Years",
+    "in_stock": true
   },
   "40367161": {
     "name": "BMW 635 CSi Die-Cast Car Toy Car JJK00",
@@ -275,10 +283,6 @@
     "name": "JJK18 Wagons Familiales '94 Audi Avant RS2 Die-Cast Toy Car For 3+ Years",
     "in_stock": false
   },
-  "40372043": {
-    "name": "HW J-Imports Japonaises Toyota AE86 Sprinter Trueno Die Cast Toy Car For 3+ Years",
-    "in_stock": false
-  },
   "40372036": {
     "name": "HW EV Porsche Taycan Turbo S Die Cast Car For 3+ Years",
     "in_stock": false
@@ -315,25 +319,21 @@
     "name": "Rod Squad Erikenstein Rod Die Cast Toy Car For 3+ Years",
     "in_stock": false
   },
-  "40372039": {
-    "name": "Formula 1 Aston Martin Aramco Die Cast Toy Car For 3+ Years",
-    "in_stock": false
-  },
   "40372040": {
     "name": "Fiat 500C Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
   "40372041": {
     "name": "HW Dirt Lil' Roar Die Cast Toy Car For 3+ Years",
-    "in_stock": false
+    "in_stock": true
   },
   "40372044": {
     "name": "HW J-Imports Japonaises Nissan Skyline GT-R Die Cast Toy Car For 3+ Years",
-    "in_stock": false
+    "in_stock": true
   },
   "40372042": {
     "name": "Screen Time Grand Ecran Spider Mobile Die Cast Toy Car For 3+ Years",
-    "in_stock": false
+    "in_stock": true
   },
   "40372047": {
     "name": "Trophy Case Street Shaker Die Cast Toy Car For 3+ Years",
@@ -665,7 +665,7 @@
   },
   "40359752": {
     "name": "1:64 Die-Cast Metal Cars For 3+ Years - Assorted Colours",
-    "in_stock": false
+    "in_stock": true
   },
   "40363960": {
     "name": "Speed Racer 29 Car-Shaped Racing Print Metal Pencil Box With Inner Tray - Red",
