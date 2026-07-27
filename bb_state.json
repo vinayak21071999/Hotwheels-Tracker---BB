@@ -159,6 +159,10 @@
     "name": "BMW 635 CSi Die-Cast Car Toy Car JJK00",
     "in_stock": false
   },
+  "40372039": {
+    "name": "Formula 1 Aston Martin Aramco Die Cast Toy Car For 3+ Years",
+    "in_stock": true
+  },
   "40367170": {
     "name": "Honda Odyssey Die-Cast Toy Car JJJ99",
     "in_stock": false
@@ -315,10 +319,6 @@
     "name": "HW Starting Grid BMW M4 GT3 Die Cast Toy Car For 3+ Years",
     "in_stock": false
   },
-  "40372039": {
-    "name": "Formula 1 Aston Martin Aramco Die Cast Toy Car For 3+ Years",
-    "in_stock": false
-  },
   "40372040": {
     "name": "Fiat 500C Die Cast Toy Car For 3+ Years",
     "in_stock": true
@@ -329,7 +329,7 @@
   },
   "40372044": {
     "name": "HW J-Imports Japonaises Nissan Skyline GT-R Die Cast Toy Car For 3+ Years",
-    "in_stock": false
+    "in_stock": true
   },
   "40372042": {
     "name": "Screen Time Grand Ecran Spider Mobile Die Cast Toy Car For 3+ Years",
