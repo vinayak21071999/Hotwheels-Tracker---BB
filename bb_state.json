@@ -127,10 +127,6 @@
     "name": "HW Heavyweights 5 Alarm Die Cast Toy Car Toy Car For 3+ Years",
     "in_stock": true
   },
-  "40372046": {
-    "name": "Team Wheels 1970 Pontiac Firebird Die Cast Toy Car For 3+ Years",
-    "in_stock": true
-  },
   "40372048": {
     "name": "Let's Race Street Shrieker Die Cast Toy Car For 3+ Years",
     "in_stock": true
@@ -143,25 +139,25 @@
     "name": "Tooned '94 Toyota Supra Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
-  "40367173": {
-    "name": "20 Toyota GR Supra Die-Cast Toy Car JJK04",
-    "in_stock": false
-  },
   "40372053": {
     "name": "Piste De Course Supercharged Die Cast Toy Car For 3+ Years",
     "in_stock": true
+  },
+  "40367173": {
+    "name": "20 Toyota GR Supra Die-Cast Toy Car JJK04",
+    "in_stock": false
   },
   "40372061": {
     "name": "Rod Squad Erikenstein Rod Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
-  "40367161": {
-    "name": "BMW 635 CSi Die-Cast Car Toy Car JJK00",
-    "in_stock": false
-  },
   "40372038": {
     "name": "Wagons Familiales Lil' Mad Die Cast Toy Car For 3+ Years",
     "in_stock": true
+  },
+  "40367161": {
+    "name": "BMW 635 CSi Die-Cast Car Toy Car JJK00",
+    "in_stock": false
   },
   "40372035": {
     "name": "HW Heavyweights Haulerback Die Cast Toy Car For 3+ Years",
@@ -293,6 +289,10 @@
   },
   "40372043": {
     "name": "HW J-Imports Japonaises Toyota AE86 Sprinter Trueno Die Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40372046": {
+    "name": "Team Wheels 1970 Pontiac Firebird Die Cast Toy Car For 3+ Years",
     "in_stock": false
   },
   "40372036": {
