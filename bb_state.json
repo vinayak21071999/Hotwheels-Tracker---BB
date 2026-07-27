@@ -159,10 +159,6 @@
     "name": "BMW 635 CSi Die-Cast Car Toy Car JJK00",
     "in_stock": false
   },
-  "40372039": {
-    "name": "Formula 1 Aston Martin Aramco Die Cast Toy Car For 3+ Years",
-    "in_stock": true
-  },
   "40367170": {
     "name": "Honda Odyssey Die-Cast Toy Car JJJ99",
     "in_stock": false
@@ -317,6 +313,10 @@
   },
   "40372066": {
     "name": "HW Starting Grid BMW M4 GT3 Die Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40372039": {
+    "name": "Formula 1 Aston Martin Aramco Die Cast Toy Car For 3+ Years",
     "in_stock": false
   },
   "40372040": {
