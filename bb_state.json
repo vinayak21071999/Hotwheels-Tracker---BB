@@ -131,10 +131,6 @@
     "name": "Wagons Familiales Lil' Mad Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
-  "40372039": {
-    "name": "Formula 1 Aston Martin Aramco Die Cast Toy Car For 3+ Years",
-    "in_stock": true
-  },
   "40367173": {
     "name": "20 Toyota GR Supra Die-Cast Toy Car JJK04",
     "in_stock": false
@@ -317,6 +313,10 @@
   },
   "40372035": {
     "name": "HW Heavyweights Haulerback Die Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40372039": {
+    "name": "Formula 1 Aston Martin Aramco Die Cast Toy Car For 3+ Years",
     "in_stock": false
   },
   "40372040": {
