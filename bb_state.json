@@ -479,10 +479,6 @@
     "name": "S2-001 Die-Cast SUV Model - Silver",
     "in_stock": true
   },
-  "40365673": {
-    "name": "S3-005 Die-Cast Racing Car - Blue",
-    "in_stock": true
-  },
   "40365668": {
     "name": "S2-006 Die-Cast SUV Model - Dark Blue",
     "in_stock": true
@@ -501,6 +497,10 @@
   },
   "40365670": {
     "name": "S3-002 Die-Cast Racing Car - Red",
+    "in_stock": true
+  },
+  "40365673": {
+    "name": "S3-005 Die-Cast Racing Car - Blue",
     "in_stock": true
   },
   "40327376": {
@@ -595,18 +595,6 @@
     "name": "S1-003 Die-Cast Truck - Yellow",
     "in_stock": true
   },
-  "40363835": {
-    "name": "Go Collection Thor Diecast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40363828": {
-    "name": "Go Collection Iron Man Knight Speed Diecast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40363837": {
-    "name": "Go Collection Miles Morales Battle SUV Diecast Toy Car For 3+ Years",
-    "in_stock": true
-  },
   "40363841": {
     "name": "Go Collection Wolverine Diecast Toy Car For 3+ Years",
     "in_stock": true
@@ -657,6 +645,18 @@
   },
   "40365662": {
     "name": "S1-006 Die-Cast Truck- Red",
+    "in_stock": true
+  },
+  "40363835": {
+    "name": "Go Collection Thor Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363828": {
+    "name": "Go Collection Iron Man Knight Speed Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363837": {
+    "name": "Go Collection Miles Morales Battle SUV Diecast Toy Car For 3+ Years",
     "in_stock": true
   },
   "40359757": {
@@ -719,6 +719,10 @@
     "name": "It Takes Two - Camping Playset With Chelsea Doll, Blonde, Pet Owl, Sleeping Bag, Binoculars & Camping Accessories",
     "in_stock": true
   },
+  "40363443": {
+    "name": "Mini Racer High Speed Pullback Diecast Battle Tank Toy - Multicolour",
+    "in_stock": true
+  },
   "40363448": {
     "name": "Mini Racer High Speed Pullback Diecast Dirt Truck & Dipper Toy",
     "in_stock": true
@@ -745,10 +749,6 @@
   },
   "40363451": {
     "name": "Mini Racer High Speed Pullback Diecast Dipper, Digger & Loader Toy",
-    "in_stock": true
-  },
-  "40363443": {
-    "name": "Mini Racer High Speed Pullback Diecast Battle Tank Toy - Multicolour",
     "in_stock": true
   },
   "40359774": {
@@ -903,14 +903,6 @@
     "name": "Alia Trendy Girl Doll In Glitter Dress - For 3+ Years, Red",
     "in_stock": true
   },
-  "40363824": {
-    "name": "Spider-Man 15 cm Figure For 4+ Years",
-    "in_stock": true
-  },
-  "40363822": {
-    "name": "Iron Man 15 cm Figure For 4+ Years",
-    "in_stock": true
-  },
   "40366368": {
     "name": "Q8 Fly Car Toy With Pullback Action For Kids 3+ Years - Multicolour",
     "in_stock": true
@@ -918,5 +910,13 @@
   "40366367": {
     "name": "Friction Powered Monster Truck Toy With Push & Go - Multicolour",
     "in_stock": false
+  },
+  "40363824": {
+    "name": "Spider-Man 15 cm Figure For 4+ Years",
+    "in_stock": true
+  },
+  "40363822": {
+    "name": "Iron Man 15 cm Figure For 4+ Years",
+    "in_stock": true
   }
 }
