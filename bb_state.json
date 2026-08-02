@@ -475,6 +475,10 @@
     "name": "S3-003 Die-Cast Racing Car - Sky Blue",
     "in_stock": true
   },
+  "40365663": {
+    "name": "S2-001 Die-Cast SUV Model - Silver",
+    "in_stock": true
+  },
   "40365673": {
     "name": "S3-005 Die-Cast Racing Car - Blue",
     "in_stock": true
@@ -497,10 +501,6 @@
   },
   "40365670": {
     "name": "S3-002 Die-Cast Racing Car - Red",
-    "in_stock": true
-  },
-  "40365663": {
-    "name": "S2-001 Die-Cast SUV Model - Silver",
     "in_stock": true
   },
   "40327376": {
@@ -579,6 +579,22 @@
     "name": "1:64 Metal Die Cast Car - Blue",
     "in_stock": true
   },
+  "40365676": {
+    "name": "S4-002 Die-Cast Van - Orange",
+    "in_stock": true
+  },
+  "40365679": {
+    "name": "S4-005 Die-Cast Van - Green",
+    "in_stock": true
+  },
+  "40365677": {
+    "name": "S4-003 Die-Cast Van - Army Green",
+    "in_stock": true
+  },
+  "40365659": {
+    "name": "S1-003 Die-Cast Truck - Yellow",
+    "in_stock": false
+  },
   "40363835": {
     "name": "Go Collection Thor Diecast Toy Car For 3+ Years",
     "in_stock": true
@@ -642,22 +658,6 @@
   "40365662": {
     "name": "S1-006 Die-Cast Truck- Red",
     "in_stock": true
-  },
-  "40365676": {
-    "name": "S4-002 Die-Cast Van - Orange",
-    "in_stock": true
-  },
-  "40365679": {
-    "name": "S4-005 Die-Cast Van - Green",
-    "in_stock": true
-  },
-  "40365677": {
-    "name": "S4-003 Die-Cast Van - Army Green",
-    "in_stock": true
-  },
-  "40365659": {
-    "name": "S1-003 Die-Cast Truck - Yellow",
-    "in_stock": false
   },
   "40359757": {
     "name": "Yes Motors Smoke Racer 1:32 Die-Cast Pull Back Car - Assorted Colour",
