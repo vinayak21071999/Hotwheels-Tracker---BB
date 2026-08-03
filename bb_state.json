@@ -475,16 +475,8 @@
     "name": "S3-003 Die-Cast Racing Car - Sky Blue",
     "in_stock": true
   },
-  "40365663": {
-    "name": "S2-001 Die-Cast SUV Model - Yellow",
-    "in_stock": true
-  },
   "40365668": {
     "name": "S2-006 Die-Cast SUV Model - Dark Blue",
-    "in_stock": true
-  },
-  "40365664": {
-    "name": "S2-002 Die-Cast SUV Model - Silver",
     "in_stock": true
   },
   "40365665": {
@@ -501,6 +493,14 @@
   },
   "40365673": {
     "name": "S3-005 Die-Cast Racing Car - Blue",
+    "in_stock": true
+  },
+  "40365664": {
+    "name": "S2-002 Die-Cast SUV Model - Silver",
+    "in_stock": true
+  },
+  "40365663": {
+    "name": "S2-001 Die-Cast SUV Model - Yellow",
     "in_stock": true
   },
   "40327376": {
