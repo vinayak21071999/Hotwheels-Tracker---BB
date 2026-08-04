@@ -475,8 +475,8 @@
     "name": "S3-003 Die-Cast Racing Car - Sky Blue",
     "in_stock": true
   },
-  "40365663": {
-    "name": "S2-001 Die-Cast SUV Model - Yellow",
+  "40365672": {
+    "name": "S3-004 Die-Cast Racing Car - Green",
     "in_stock": true
   },
   "40365665": {
@@ -489,6 +489,10 @@
   },
   "40365668": {
     "name": "S2-006 Die-Cast SUV Model - Dark Blue",
+    "in_stock": true
+  },
+  "40365663": {
+    "name": "S2-001 Die-Cast SUV Model - Yellow",
     "in_stock": true
   },
   "40365670": {
@@ -643,16 +647,16 @@
     "name": "S4-003 Die-Cast Van - Army Green",
     "in_stock": true
   },
-  "40365662": {
-    "name": "S1-006 Die-Cast Truck- Red",
-    "in_stock": true
-  },
   "40365675": {
     "name": "S4-001 Die-Cast Van - Red",
     "in_stock": true
   },
   "40365676": {
     "name": "S4-002 Die-Cast Van - Orange",
+    "in_stock": true
+  },
+  "40365662": {
+    "name": "S1-006 Die-Cast Truck- Red",
     "in_stock": true
   },
   "40359757": {
