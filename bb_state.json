@@ -671,10 +671,6 @@
     "name": "Speed Racer 29 Car-Shaped Racing Print Metal Pencil Box With Inner Tray - Red",
     "in_stock": true
   },
-  "40369450": {
-    "name": "Alia Fashion Model Doll - For 3+ Years",
-    "in_stock": true
-  },
   "40363959": {
     "name": "Speed Racer 29 Car-Shaped Racing Print Metal Pencil Box With Inner Tray - Orange",
     "in_stock": true
@@ -701,6 +697,10 @@
   },
   "40369451": {
     "name": "Alia Pet Collection Doll - For 3+ Years",
+    "in_stock": true
+  },
+  "40369450": {
+    "name": "Alia Fashion Model Doll - For 3+ Years",
     "in_stock": true
   },
   "40363449": {
@@ -819,10 +819,6 @@
     "name": "Alia Scooter Doll - Pink, For 3+ Years",
     "in_stock": true
   },
-  "40369455": {
-    "name": "Alia Teacher Doll - For 3+ Years, Multicoloured",
-    "in_stock": true
-  },
   "40369459": {
     "name": "Alia School Teacher Doll - For 3+ Years, Black & White",
     "in_stock": true
@@ -917,6 +913,10 @@
   },
   "40369447": {
     "name": "Alia School Time Doll - For 3+ Years, Pink",
+    "in_stock": true
+  },
+  "40369455": {
+    "name": "Alia Teacher Doll - For 3+ Years, Multicoloured",
     "in_stock": true
   }
 }
