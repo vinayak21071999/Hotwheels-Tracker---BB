@@ -671,10 +671,6 @@
     "name": "Speed Racer 29 Car-Shaped Racing Print Metal Pencil Box With Inner Tray - Red",
     "in_stock": true
   },
-  "40369451": {
-    "name": "Alia Pet Collection Doll - For 3+ Years",
-    "in_stock": true
-  },
   "40369450": {
     "name": "Alia Fashion Model Doll - For 3+ Years",
     "in_stock": true
@@ -701,6 +697,10 @@
   },
   "40363827": {
     "name": "Play-Doh Mint Green & Bright Blue Modeling Compounds For 3+ Years",
+    "in_stock": true
+  },
+  "40369451": {
+    "name": "Alia Pet Collection Doll - For 3+ Years",
     "in_stock": true
   },
   "40363449": {
@@ -815,16 +815,8 @@
     "name": "Army Troop Carrier Pull Back Toy Truck - 3+ Years, Green",
     "in_stock": true
   },
-  "40369447": {
-    "name": "Alia School Time Doll - For 3+ Years, Pink",
-    "in_stock": true
-  },
   "40369460": {
     "name": "Alia Scooter Doll - Pink, For 3+ Years",
-    "in_stock": true
-  },
-  "40369456": {
-    "name": "Alia With Puppy Doll - For 3+ Years",
     "in_stock": true
   },
   "40369455": {
@@ -918,5 +910,13 @@
   "40369946": {
     "name": "Mattel Frozen Toys Elsa Fashion Doll - For 3+ Years",
     "in_stock": false
+  },
+  "40369456": {
+    "name": "Alia With Puppy Doll - For 3+ Years",
+    "in_stock": true
+  },
+  "40369447": {
+    "name": "Alia School Time Doll - For 3+ Years, Pink",
+    "in_stock": true
   }
 }
