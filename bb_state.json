@@ -891,18 +891,6 @@
     "name": "Alia Trendy Girl Doll In Glitter Dress - For 3+ Years, Red",
     "in_stock": true
   },
-  "40369447": {
-    "name": "Alia School Time Doll - For 3+ Years, Pink",
-    "in_stock": true
-  },
-  "40369456": {
-    "name": "Alia With Puppy Doll - For 3+ Years",
-    "in_stock": true
-  },
-  "40369455": {
-    "name": "Alia Teacher Doll - For 3+ Years, Multicoloured",
-    "in_stock": true
-  },
   "40369943": {
     "name": "Mattel Frozen Anna Fashion Doll & Wolf Cub Figure - For 3+ Years",
     "in_stock": true
@@ -918,5 +906,17 @@
   "40369946": {
     "name": "Mattel Frozen Toys Elsa Fashion Doll - For 3+ Years",
     "in_stock": false
+  },
+  "40369447": {
+    "name": "Alia School Time Doll - For 3+ Years, Pink",
+    "in_stock": true
+  },
+  "40369456": {
+    "name": "Alia With Puppy Doll - For 3+ Years",
+    "in_stock": true
+  },
+  "40369455": {
+    "name": "Alia Teacher Doll - For 3+ Years, Multicoloured",
+    "in_stock": true
   }
 }
