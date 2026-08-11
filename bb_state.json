@@ -1,4 +1,28 @@
 {
+  "40367171": {
+    "name": "High Tail Chaser Die-Cast Toy Car JJK92",
+    "in_stock": true
+  },
+  "40367177": {
+    "name": "Standard Kart Mario Die-Cast Toy Cars JJJ83",
+    "in_stock": true
+  },
+  "40369950": {
+    "name": "Mattel Premium Legends Team Transport Hauler & Toy Car Vehicles - 1:64 Scale",
+    "in_stock": true
+  },
+  "40367168": {
+    "name": "Dirt El Segundo Rallye Die-Cast Toy Car JJJ97",
+    "in_stock": true
+  },
+  "40367163": {
+    "name": "20 Toyota GR Supra Die-Cast Toy Car JJK76",
+    "in_stock": true
+  },
+  "40367176": {
+    "name": "41 Willy Die-Cast Toy Car JJK01",
+    "in_stock": true
+  },
   "40370200": {
     "name": "JJH59 HW Mods PT Fast Die-Cast Toy Car For 3+ Years",
     "in_stock": true
@@ -39,6 +63,10 @@
     "name": "Cool Classics Mod Mill Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
+  "40367172": {
+    "name": "Porsche 911 Carrera T Die-Cast Toy Car JJK80",
+    "in_stock": false
+  },
   "40370205": {
     "name": "JJK20 Hot Wheels Let's Race Mountain Mauler Die-Cast Toy Car",
     "in_stock": true
@@ -46,6 +74,10 @@
   "40329301": {
     "name": "Vehicles Set - 1:64 Scale, Ages 3+ Years Old, Multicolour",
     "in_stock": true
+  },
+  "40367173": {
+    "name": "20 Toyota GR Supra Die-Cast Toy Car JJK04",
+    "in_stock": false
   },
   "40370171": {
     "name": "JJH64 Experimotors Twin Tags Die-Cast Toy Car For 3+ Years",
@@ -63,10 +95,6 @@
     "name": "HW Heavyweights Haulerback Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
-  "40372041": {
-    "name": "HW Dirt Lil' Roar Die Cast Toy Car For 3+ Years",
-    "in_stock": false
-  },
   "40372034": {
     "name": "HW Heavyweights 5 Alarm Die Cast Toy Car Toy Car For 3+ Years",
     "in_stock": true
@@ -75,10 +103,6 @@
     "name": "Tooned Purple Passion Die-Cast Toy Car JJH54",
     "in_stock": true
   },
-  "40370176": {
-    "name": "JJK08 HW Dirt '70 Ford Escort RS1600 Die-Cast Toy Car For 3+ Years",
-    "in_stock": false
-  },
   "40370177": {
     "name": "JJK09 Wagons Familiales Gone Mad Die-Cast Toy Car For 3+ Years",
     "in_stock": true
@@ -86,6 +110,62 @@
   "40372037": {
     "name": "HW All Drivers Click Shift Die Cast Car For 3+ Years",
     "in_stock": true
+  },
+  "40367167": {
+    "name": "Ford Mustang Mach E 1400 Die-Cast Toy Car JJK78",
+    "in_stock": false
+  },
+  "40370173": {
+    "name": "JJK05 Exoticars Mach Speeder Die-Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40367161": {
+    "name": "BMW 635 CSi Die-Cast Car Toy Car JJK00",
+    "in_stock": false
+  },
+  "40370214": {
+    "name": "JJK97 Batman Batmobile Die-Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40370169": {
+    "name": "JJH49 HW EV Cadillac Celestiq Die-Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40372056": {
+    "name": "Experimotors EL Segundo Coupe Clip Die Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40367164": {
+    "name": "Ferrari Dino 206 GT Die-Cast Toy Car JJH56",
+    "in_stock": false
+  },
+  "40367170": {
+    "name": "Honda Odyssey Die-Cast Toy Car JJJ99",
+    "in_stock": false
+  },
+  "40367174": {
+    "name": "Ford F150 Lightning Supertruck Die-Cast Toy Car JJH52",
+    "in_stock": false
+  },
+  "40367162": {
+    "name": "70 Dodge Hemi Challenger Die-Cast Toy Car JJK79",
+    "in_stock": false
+  },
+  "40370191": {
+    "name": "JJK90 HW Euro '17 Audi RS 6 Avant Die-Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40370190": {
+    "name": "JJK89 Ferrari SF90 Stradale Die-Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40372041": {
+    "name": "HW Dirt Lil' Roar Die Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
+  "40370176": {
+    "name": "JJK08 HW Dirt '70 Ford Escort RS1600 Die-Cast Toy Car For 3+ Years",
+    "in_stock": false
   },
   "40370170": {
     "name": "JJH63 HW Euro Mercedes Benz Cla Die-Cast Toy Car For 3+ Years",
