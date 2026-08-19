@@ -19,12 +19,12 @@
     "name": "41 Willy Die-Cast Toy Car JJK01",
     "in_stock": true
   },
-  "40367163": {
-    "name": "20 Toyota GR Supra Die-Cast Toy Car JJK76",
-    "in_stock": true
-  },
   "40370200": {
     "name": "JJH59 HW Mods PT Fast Die-Cast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40367163": {
+    "name": "20 Toyota GR Supra Die-Cast Toy Car JJK76",
     "in_stock": true
   },
   "40370183": {
@@ -143,6 +143,10 @@
     "name": "Ferrari Dino 206 GT Die-Cast Toy Car JJH56",
     "in_stock": false
   },
+  "40370172": {
+    "name": "JJK02 Formula 1 - 2025 Kick Sauber F1 Team/Equipe Die-Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
   "40367170": {
     "name": "Honda Odyssey Die-Cast Toy Car JJJ99",
     "in_stock": false
@@ -153,10 +157,6 @@
   },
   "40367174": {
     "name": "Ford F150 Lightning Supertruck Die-Cast Toy Car JJH52",
-    "in_stock": false
-  },
-  "40370172": {
-    "name": "JJK02 Formula 1 - 2025 Kick Sauber F1 Team/Equipe Die-Cast Toy Car For 3+ Years",
     "in_stock": false
   },
   "40370191": {
