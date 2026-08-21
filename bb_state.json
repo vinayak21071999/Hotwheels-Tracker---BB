@@ -847,10 +847,6 @@
     "name": "Alia School Time Doll - For 3+ Years, Pink",
     "in_stock": true
   },
-  "40369456": {
-    "name": "Alia With Puppy Doll - For 3+ Years",
-    "in_stock": true
-  },
   "40369455": {
     "name": "Alia Teacher Doll - For 3+ Years, Multicoloured",
     "in_stock": true
@@ -881,10 +877,6 @@
   },
   "40368440": {
     "name": "G-Power Pull Back Action SUV Toy Car - 3+ Years, Assorted Colour",
-    "in_stock": true
-  },
-  "40369459": {
-    "name": "Alia School Teacher Doll - For 3+ Years, Black & White",
     "in_stock": true
   },
   "40363821": {
@@ -925,6 +917,14 @@
   },
   "40369448": {
     "name": "Alia Princess Suit Doll - For 3+ Years, Pink",
+    "in_stock": true
+  },
+  "40369456": {
+    "name": "Alia With Puppy Doll - For 3+ Years",
+    "in_stock": true
+  },
+  "40369459": {
+    "name": "Alia School Teacher Doll - For 3+ Years, Black & White",
     "in_stock": true
   }
 }
