@@ -879,10 +879,6 @@
     "name": "Hulk 15 cm Figure For 4+ Years",
     "in_stock": true
   },
-  "40366367": {
-    "name": "Friction Powered Monster Truck Toy With Push & Go - Multicolour",
-    "in_stock": false
-  },
   "40369947": {
     "name": "Mattel Princess Enchanted Stories Rapunzel Fashion Doll - For 3+ Years",
     "in_stock": true
@@ -926,5 +922,9 @@
   "40369453": {
     "name": "Alia Trendy Girl Doll In Glitter Dress - For 3+ Years, Multicolour",
     "in_stock": true
+  },
+  "40366367": {
+    "name": "Friction Powered Monster Truck Toy With Push & Go - Multicolour",
+    "in_stock": false
   }
 }
