@@ -435,25 +435,13 @@
     "name": "Screamliner Scale Model Toy Car - JJL19, For 3+ Years",
     "in_stock": true
   },
-  "40374775": {
-    "name": "The Dark Knight Batmobile Scale Model Toy Car - JJL13, For 3+ Years",
-    "in_stock": true
-  },
-  "40374785": {
-    "name": "2024 Aston Martin Vantage GT3 Scale Model Toy Car - JJL24, For 3+ Years",
-    "in_stock": false
-  },
-  "40374765": {
-    "name": "Project Twin Mill Scale Model Toy Car - JJH67, For 3+ Years",
-    "in_stock": true
-  },
   "40374776": {
     "name": "Lucid Air Scale Model Toy Car - JJL14, For 3+ Years",
     "in_stock": true
   },
   "40374778": {
     "name": "Lotus Cortina Scale Model Toy Car - JJL16, For 3+ Years",
-    "in_stock": true
+    "in_stock": false
   },
   "40374773": {
     "name": "96 Dodge Viper GTS Scale Model Toy Car - JJK50, For 3+ Years",
@@ -465,6 +453,18 @@
   },
   "40374772": {
     "name": "Custom '62 Chevy Pickup Scale Model Toy Car - JJK49, For 3+ Years",
+    "in_stock": true
+  },
+  "40374775": {
+    "name": "The Dark Knight Batmobile Scale Model Toy Car - JJL13, For 3+ Years",
+    "in_stock": true
+  },
+  "40374785": {
+    "name": "2024 Aston Martin Vantage GT3 Scale Model Toy Car - JJL24, For 3+ Years",
+    "in_stock": false
+  },
+  "40374765": {
+    "name": "Project Twin Mill Scale Model Toy Car - JJH67, For 3+ Years",
     "in_stock": true
   },
   "40374771": {
@@ -485,7 +485,7 @@
   },
   "40374769": {
     "name": "21 Ford Bronco Scale Model Toy Car - JJK46, For 3+ Years",
-    "in_stock": true
+    "in_stock": false
   },
   "40335296": {
     "name": "Race N Roll 1:64 Die Cast Metal Cars -\u00a0BR.CH, 3+ Years",
