@@ -927,10 +927,6 @@
     "name": "Alia Teacher Doll - For 3+ Years, Multicoloured",
     "in_stock": true
   },
-  "40369452": {
-    "name": "Alia Trendy Girl Doll In Glitter Dress - For 3+ Years, Red",
-    "in_stock": true
-  },
   "40368441": {
     "name": "UTE Series Pull Back Action Trailblaster Toy Car - 3+ Years, Assorted Colour",
     "in_stock": true
@@ -961,10 +957,6 @@
   },
   "40369460": {
     "name": "Alia Scooter Doll - Multicolour, For 3+ Years",
-    "in_stock": true
-  },
-  "40369454": {
-    "name": "Alia Trendy Girl Doll In Glitter Dress - For 3+ Years, Multicolour",
     "in_stock": true
   },
   "40369453": {
@@ -1010,5 +1002,13 @@
   "40366367": {
     "name": "Friction Powered Monster Truck Toy With Push & Go - Multicolour",
     "in_stock": false
+  },
+  "40369452": {
+    "name": "Alia Trendy Girl Doll In Glitter Dress - For 3+ Years, Red",
+    "in_stock": true
+  },
+  "40369454": {
+    "name": "Alia Trendy Girl Doll In Glitter Dress - For 3+ Years, Multicolour",
+    "in_stock": true
   }
 }
