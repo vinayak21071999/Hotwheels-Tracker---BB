@@ -207,6 +207,10 @@
     "name": "JJK15 HW Euro 1983 Porsche 928S Die-Cast Toy Car For 3+ Years",
     "in_stock": false
   },
+  "40372044": {
+    "name": "HW J-Imports Japonaises Nissan Skyline GT-R Die Cast Toy Car For 3+ Years",
+    "in_stock": false
+  },
   "40370212": {
     "name": "JJK28 Then And Now '82 Toyota Supra Die-Cast Toy Car For 3+ Years",
     "in_stock": false
@@ -301,10 +305,6 @@
   },
   "40372040": {
     "name": "Fiat 500C Die Cast Toy Car For 3+ Years",
-    "in_stock": false
-  },
-  "40372044": {
-    "name": "HW J-Imports Japonaises Nissan Skyline GT-R Die Cast Toy Car For 3+ Years",
     "in_stock": false
   },
   "40370210": {
@@ -639,10 +639,6 @@
     "name": "S1-001 Die-Cast Truck - Blue",
     "in_stock": false
   },
-  "40365667": {
-    "name": "S2-005 Die-Cast Truck - Orange",
-    "in_stock": true
-  },
   "40365677": {
     "name": "S4-003 Die-Cast Van - Army Green",
     "in_stock": true
@@ -787,10 +783,6 @@
     "name": "Play-Doh Mint Green & Bright Blue Modeling Compounds For 3+ Years",
     "in_stock": true
   },
-  "40366383": {
-    "name": "Defender 1:36 Pullback Die Cast Toy Car",
-    "in_stock": true
-  },
   "40369450": {
     "name": "Alia Fashion Model Doll - For 3+ Years",
     "in_stock": true
@@ -805,6 +797,10 @@
   },
   "40369451": {
     "name": "Alia Pet Collection Doll - For 3+ Years",
+    "in_stock": true
+  },
+  "40366383": {
+    "name": "Defender 1:36 Pullback Die Cast Toy Car",
     "in_stock": true
   },
   "40363443": {
