@@ -975,10 +975,6 @@
     "name": "Mattel Day At The Fair Doll & Accessory Set - For 3+ Years",
     "in_stock": true
   },
-  "40369943": {
-    "name": "Mattel Frozen Anna Fashion Doll & Wolf Cub Figure - For 3+ Years",
-    "in_stock": true
-  },
   "40369947": {
     "name": "Mattel Princess Enchanted Stories Rapunzel Fashion Doll - For 3+ Years",
     "in_stock": true
@@ -1010,5 +1006,9 @@
   "40366367": {
     "name": "Friction Powered Monster Truck Toy With Push & Go - Multicolour",
     "in_stock": false
+  },
+  "40369943": {
+    "name": "Mattel Frozen Anna Fashion Doll & Wolf Cub Figure - For 3+ Years",
+    "in_stock": true
   }
 }
