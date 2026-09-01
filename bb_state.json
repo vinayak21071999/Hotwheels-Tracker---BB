@@ -31,6 +31,10 @@
     "name": "JJH60 ROD Squad Chop 'N Bloc Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
+  "40372053": {
+    "name": "Piste De Course Supercharged Die Cast Toy Car For 3+ Years",
+    "in_stock": true
+  },
   "40372050": {
     "name": "HW Torque Bully Goat Die Cast Toy Car For 3+ Years",
     "in_stock": true
@@ -41,10 +45,6 @@
   },
   "40370180": {
     "name": "JJK13 Hot Wheels Let's Race Super Twin Mill Die-Cast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40372053": {
-    "name": "Piste De Course Supercharged Die Cast Toy Car For 3+ Years",
     "in_stock": true
   },
   "40372045": {
@@ -367,16 +367,8 @@
     "name": "HW Starting Grid BMW M4 GT3 Die Cast Toy Car For 3+ Years",
     "in_stock": false
   },
-  "40370178": {
-    "name": "JJK11 HW Head Gasket Die-Cast Toy Car For 3+ Years",
-    "in_stock": true
-  },
   "40374772": {
     "name": "Custom '62 Chevy Pickup Scale Model Toy Car - JJK49, For 3+ Years",
-    "in_stock": false
-  },
-  "40374779": {
-    "name": "Lotus Cortina Scale Model Toy Car - JJL17, For 3+ Years",
     "in_stock": false
   },
   "40374773": {
@@ -397,6 +389,14 @@
   },
   "40374777": {
     "name": "98 Honda Prelude Scale Model Toy Car - JJL15, For 3+ Years",
+    "in_stock": false
+  },
+  "40374767": {
+    "name": "Uncertain T Scale Model Toy Car - JJH70, For 3+ Years",
+    "in_stock": true
+  },
+  "40374785": {
+    "name": "2024 Aston Martin Vantage GT3 Scale Model Toy Car - JJL24, For 3+ Years",
     "in_stock": false
   },
   "40372065": {
@@ -477,6 +477,14 @@
   },
   "40357091": {
     "name": "Mattel Multi-Loop Race Off Playset - For 4+ Years",
+    "in_stock": true
+  },
+  "40374779": {
+    "name": "Lotus Cortina Scale Model Toy Car - JJL17, For 3+ Years",
+    "in_stock": false
+  },
+  "40370178": {
+    "name": "JJK11 HW Head Gasket Die-Cast Toy Car For 3+ Years",
     "in_stock": true
   },
   "40335296": {
@@ -811,10 +819,6 @@
     "name": "Mini Racer High Speed Pullback Diecast Dipper, Digger & Loader Toy",
     "in_stock": true
   },
-  "40363448": {
-    "name": "Mini Racer High Speed Pullback Diecast Dirt Truck & Dipper Toy",
-    "in_stock": true
-  },
   "40334262": {
     "name": "It Takes Two - Camping Playset With Chelsea Doll, Blonde, Pet Owl, Sleeping Bag, Binoculars & Camping Accessories",
     "in_stock": true
@@ -837,6 +841,10 @@
   },
   "40363446": {
     "name": "Mini Racer High Speed Pullback Diecast Airport Bus & Van Toy - Green & Grey",
+    "in_stock": true
+  },
+  "40363448": {
+    "name": "Mini Racer High Speed Pullback Diecast Dirt Truck & Dipper Toy",
     "in_stock": true
   },
   "40359771": {
