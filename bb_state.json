@@ -559,10 +559,6 @@
     "name": "S2-003 Die-Cast SUV Model - White",
     "in_stock": true
   },
-  "40365672": {
-    "name": "S3-004 Die-Cast Racing Car - Green",
-    "in_stock": true
-  },
   "40365664": {
     "name": "S2-002 Die-Cast SUV Model - Silver",
     "in_stock": true
@@ -595,12 +591,12 @@
     "name": "Race N Roll 1:64 Die Cast Metal Cars - HW.PO356, 3+ years",
     "in_stock": true
   },
-  "40335297": {
-    "name": "Race N Roll 1:64 Die Cast Metal Cars -\u00a0MC.TR, 3+ Years",
-    "in_stock": true
-  },
   "40335294": {
     "name": "Race N Roll 1:64 Die Cast Metal Car - PO356, 3+ Years",
+    "in_stock": true
+  },
+  "40335297": {
+    "name": "Race N Roll 1:64 Die Cast Metal Cars -\u00a0MC.TR, 3+ Years",
     "in_stock": true
   },
   "40363465": {
@@ -655,42 +651,6 @@
     "name": "S1-005 Die-Cast Truck - Mustard Yellow",
     "in_stock": true
   },
-  "40363458": {
-    "name": "1:64 Metal Die Cast Car - Purple",
-    "in_stock": true
-  },
-  "40371503": {
-    "name": "Go Collection Battle SUV Spider-Man Diecast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40363828": {
-    "name": "Go Collection Iron Man Knight Speed Diecast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40363833": {
-    "name": "Go Collection Spider-Man Knight Speed Diecast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40363840": {
-    "name": "Go Collection Loki Battle SUV Diecast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40363834": {
-    "name": "Go Collection Hulk Battle SUV Diecast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40363453": {
-    "name": "1:64 Metal Die Cast Car - Blue",
-    "in_stock": true
-  },
-  "40363456": {
-    "name": "1:64 Metal Die Cast Car - Violet",
-    "in_stock": true
-  },
-  "40363459": {
-    "name": "1:64 Metal Die Cast Car - Multicolour",
-    "in_stock": true
-  },
   "40365675": {
     "name": "S4-001 Die-Cast Van - Red",
     "in_stock": true
@@ -717,6 +677,70 @@
   },
   "40363462": {
     "name": "1:64 Metal Die Cast Car - Assorted Colours, Nz.po959.br",
+    "in_stock": true
+  },
+  "40363454": {
+    "name": "1:64 Metal Die Cast Car - Gold",
+    "in_stock": true
+  },
+  "40363452": {
+    "name": "1:64 Metal Die Cast Car - Black",
+    "in_stock": true
+  },
+  "40363450": {
+    "name": "Mini Racer Pullback Diecast GOGO Van & Transport Truck Toy - Blue & Green",
+    "in_stock": true
+  },
+  "40365678": {
+    "name": "S4-004 Die-Cast Van - Brown",
+    "in_stock": true
+  },
+  "40365676": {
+    "name": "S4-002 Die-Cast Van - Orange",
+    "in_stock": true
+  },
+  "40363835": {
+    "name": "Go Collection Thor Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363848": {
+    "name": "Go Collection Miles Morales Rapid Racer Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40371503": {
+    "name": "Go Collection Battle SUV Spider-Man Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363828": {
+    "name": "Go Collection Iron Man Knight Speed Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363458": {
+    "name": "1:64 Metal Die Cast Car - Purple",
+    "in_stock": true
+  },
+  "40363833": {
+    "name": "Go Collection Spider-Man Knight Speed Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363840": {
+    "name": "Go Collection Loki Battle SUV Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363834": {
+    "name": "Go Collection Hulk Battle SUV Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363453": {
+    "name": "1:64 Metal Die Cast Car - Blue",
+    "in_stock": true
+  },
+  "40363456": {
+    "name": "1:64 Metal Die Cast Car - Violet",
+    "in_stock": true
+  },
+  "40363459": {
+    "name": "1:64 Metal Die Cast Car - Multicolour",
     "in_stock": true
   },
   "40363841": {
