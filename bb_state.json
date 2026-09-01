@@ -39,6 +39,10 @@
     "name": "JJK06 Drag Racers '65 Mercury Comet Cyclone Die-Cast Toy Car For 3+ Years",
     "in_stock": true
   },
+  "40370180": {
+    "name": "JJK13 Hot Wheels Let's Race Super Twin Mill Die-Cast Toy Car For 3+ Years",
+    "in_stock": true
+  },
   "40372053": {
     "name": "Piste De Course Supercharged Die Cast Toy Car For 3+ Years",
     "in_stock": true
@@ -53,10 +57,6 @@
   },
   "40370188": {
     "name": "JJK86 HW EV Wattzup Die-Cast Toy Car For 3+ Years",
-    "in_stock": true
-  },
-  "40370180": {
-    "name": "JJK13 Hot Wheels Let's Race Super Twin Mill Die-Cast Toy Car For 3+ Years",
     "in_stock": true
   },
   "40372049": {
@@ -559,8 +559,12 @@
     "name": "S3-004 Die-Cast Racing Car - Green",
     "in_stock": true
   },
-  "40365664": {
-    "name": "S2-002 Die-Cast SUV Model - Silver",
+  "40363463": {
+    "name": "1:64 Metal Die Cast Car - Assorted Colours, PO365.BU.HU",
+    "in_stock": true
+  },
+  "40363461": {
+    "name": "1:64 Metal Die Cast Car - Assorted Colours, Mc.ch.tr",
     "in_stock": true
   },
   "40327375": {
@@ -635,32 +639,12 @@
     "name": "S1-001 Die-Cast Truck - Blue",
     "in_stock": false
   },
-  "40365667": {
-    "name": "S2-005 Die-Cast Truck - Orange",
-    "in_stock": true
-  },
-  "40363461": {
-    "name": "1:64 Metal Die Cast Car - Assorted Colours, Mc.ch.tr",
-    "in_stock": true
-  },
-  "40363463": {
-    "name": "1:64 Metal Die Cast Car - Assorted Colours, PO365.BU.HU",
-    "in_stock": true
-  },
-  "40363458": {
-    "name": "1:64 Metal Die Cast Car - Purple",
-    "in_stock": true
-  },
   "40365679": {
     "name": "S4-005 Die-Cast Van - Green",
     "in_stock": true
   },
   "40365677": {
     "name": "S4-003 Die-Cast Van - Army Green",
-    "in_stock": true
-  },
-  "40363841": {
-    "name": "Go Collection Wolverine Diecast Toy Car For 3+ Years",
     "in_stock": true
   },
   "40363828": {
@@ -719,6 +703,14 @@
     "name": "1:64 Metal Die Cast Car - Red",
     "in_stock": true
   },
+  "40363462": {
+    "name": "1:64 Metal Die Cast Car - Assorted Colours, Nz.po959.br",
+    "in_stock": true
+  },
+  "40363454": {
+    "name": "1:64 Metal Die Cast Car - Gold",
+    "in_stock": true
+  },
   "40363452": {
     "name": "1:64 Metal Die Cast Car - Black",
     "in_stock": true
@@ -749,6 +741,14 @@
   },
   "40371503": {
     "name": "Go Collection Battle SUV Spider-Man Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363841": {
+    "name": "Go Collection Wolverine Diecast Toy Car For 3+ Years",
+    "in_stock": true
+  },
+  "40363458": {
+    "name": "1:64 Metal Die Cast Car - Purple",
     "in_stock": true
   },
   "40359919": {
