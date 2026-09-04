@@ -983,10 +983,6 @@
     "name": "Alia Princess Suit Doll - For 3+ Years, Pink",
     "in_stock": true
   },
-  "40321380": {
-    "name": "Army Jeep - 3+ Years, Multicolour",
-    "in_stock": true
-  },
   "40369454": {
     "name": "Alia Trendy Girl Doll In Glitter Dress - For 3+ Years, Multicolour",
     "in_stock": true
@@ -1009,6 +1005,10 @@
   },
   "40368442": {
     "name": "Army Troop Carrier Pull Back Toy Truck - 3+ Years, Green",
+    "in_stock": true
+  },
+  "40321380": {
+    "name": "Army Jeep - 3+ Years, Multicolour",
     "in_stock": true
   }
 }
