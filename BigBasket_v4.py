@@ -1,4 +1,5 @@
 import requests
+from curl_cffi import requests as cffi_requests
 import json
 import os
 import time
@@ -33,17 +34,18 @@ print(f"DEBUG: number of '; ' separated parts = {len(BB_COOKIES_STR.split('; '))
 print(f"DEBUG: first 30 chars = {BB_COOKIES_STR[:30]!r}")
 print(f"DEBUG: last 30 chars = {BB_COOKIES_STR[-30:]!r}")
 
-BB_COOKIES = dict(item.split("=", 1) for item in BB_COOKIES_STR.split("; "))
+BB_COOKIES = dict(item.split("=", 1) for item in BB_COOKIES_STR.split("; ") if "=" in item)
 
 BB_HEADERS = {
     "accept": "*/*",
     "accept-language": "en-US,en;q=0.9",
     "common-client-static-version": "101",
     "content-type": "application/json",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "osmos-enabled": "true",
     "x-channel": "BB-WEB",
     "x-entry-context": "bbnow",
     "x-entry-context-id": "10",
+    "x-integrated-fc-door-visible": "false",
 }
 
 
@@ -61,7 +63,7 @@ def matches_watchlist(name: str) -> bool:
 def fetch_page_with_retry(url, max_retries=4):
     delay = 5
     for attempt in range(max_retries):
-        resp = requests.get(url, headers=BB_HEADERS, cookies=BB_COOKIES, timeout=15)
+        resp = cffi_requests.get(url, headers=BB_HEADERS, cookies=BB_COOKIES, impersonate="chrome", timeout=15)
 
         if resp.status_code == 429:
             print(f"Rate limited (attempt {attempt + 1}/{max_retries}), waiting {delay}s...")
@@ -79,7 +81,7 @@ def fetch_bigbasket_hotwheels():
     all_products = []
     page = 1
     while True:
-        url = f"https://www.bigbasket.com/listing-svc/v2/products?type=ps&slug=hot%20wheels&page={page}&bucket_id=6"
+        url = f"https://www.bigbasket.com/listing-svc/v2/products?type=ps&slug=hot%20wheels&page={page}&bucket_id=19"
 
         data = fetch_page_with_retry(url)
         products = data["tabs"][0]["product_info"]["products"]
@@ -130,7 +132,8 @@ def main():
         products = fetch_bigbasket_hotwheels()
     except Exception as e:
         print(f"Error fetching BigBasket results: {e}")
-        return
+        send_telegram(f"⚠️ Tracker failed: {e}")
+        raise SystemExit(1)
 
     for p in products:
         pid = p["id"]

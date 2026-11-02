@@ -3,6 +3,10 @@ name: Hot Wheels Stock Tracker
 on:
   workflow_dispatch:
 
+concurrency:
+  group: hotwheels-tracker
+  cancel-in-progress: false
+
 jobs:
   check-stock:
     runs-on: ubuntu-latest
@@ -16,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests curl_cffi
 
       - name: Run tracker
         env:
