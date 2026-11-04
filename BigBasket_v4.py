@@ -124,7 +124,6 @@ def is_in_stock(product) -> bool:
 
 
 def main():
-    send_telegram("✅ Test message - tracker is alive")
     previous = load_state()
     current = {}
 
