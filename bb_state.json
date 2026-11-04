@@ -639,18 +639,6 @@
     "name": "Sweet Rides 1:64 Birthday Burner Toy Car For 3+ Years",
     "in_stock": true
   },
-  "40380190": {
-    "name": "HW Dirt 1:64 Aston Martin DB5 Safari Edition Toy Car For 3+ Years",
-    "in_stock": false
-  },
-  "40380198": {
-    "name": "Drop Tops 1:64 2019 Audi R8 Spyder Toy Car For 3+ Years",
-    "in_stock": false
-  },
-  "40380188": {
-    "name": "Tooned 1:64 Volkswagen Golf Mk1 Toy Car For 3+ Years",
-    "in_stock": true
-  },
   "40363918": {
     "name": "Hot Wheel Print Double Zip PVC Pencil Pouch - Blue",
     "in_stock": true
@@ -679,20 +667,20 @@
     "name": "S3-003 Die-Cast Racing Car - Sky Blue",
     "in_stock": true
   },
-  "40365670": {
-    "name": "S3-002 Die-Cast Racing Car - Red",
-    "in_stock": true
-  },
   "40365663": {
     "name": "S2-001 Die-Cast SUV Model - Yellow",
     "in_stock": true
   },
-  "40365672": {
-    "name": "S3-004 Die-Cast Racing Car - Green",
+  "40365670": {
+    "name": "S3-002 Die-Cast Racing Car - Red",
     "in_stock": true
   },
   "40365664": {
     "name": "S2-002 Die-Cast SUV Model - Silver",
+    "in_stock": true
+  },
+  "40365672": {
+    "name": "S3-004 Die-Cast Racing Car - Green",
     "in_stock": true
   },
   "40365665": {
